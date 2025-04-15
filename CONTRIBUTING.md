@@ -1,10 +1,10 @@
-# Contributing to WY6YPi  CyberPunk Antenna Switch
+# Contributing to WY6Y  CyberPunk Antenna Switch
 
 Thanks for your interest! Here’s how to contribute:
 
 ## Ideas
-- Suggest features (e.g., new antenna modes) via [Issues](https://github.com/your-username/WY6YPi-Antenna-Switch/issues).
-- Discuss in [Discussions](https://github.com/your-username/WY6YPi-Antenna-Switch/discussions).
+- Suggest features (e.g., new antenna modes) via [Issues](https://github.com/WY6Y/CyberPunkAntennaSwitch/issues).
+- Discuss in [Discussions](https://github.com/WY6Y/CyberPunkAntennaSwitch/discussions).
 
 ## Code
 - Fork the repo.
