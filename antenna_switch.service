@@ -12,7 +12,7 @@ WorkingDirectory=/home/stephenhouser/antenna_switch
 StandardOutput=inherit
 StandardError=inherit
 Restart=always
-User=stephenhouser
+User=user
 
 [Install]
 WantedBy=multi-user.target
