@@ -32,6 +32,16 @@ This project is licensed under the Creative Commons Attribution-NonCommercial 4.
 5. Wire HAT to relay: 5V, GND, GPIO 23 (IN1), 27 (IN2), 18 (IN3), 17 (IN4).
 6. Test: `./switch_antenna.py 1`, `http://[IP]:5002`.
 
+## Wiring
+The ANMBEST 4-channel relay connects antennas to the Shack coax:
+- SO-239s 1-3 to COM1-3 (Doublet, Emcomm III-B, Aux).
+- NO1-3 to junction, junction to COM4.
+- NO4 to SO-239 4 (Shack).
+- NC1-4 to DXE-UE-2P SPG bus (ground).
+
+![Wiring Diagram](docs/WY6Y_Switch_Diagram.png)
+[Download PDF](docs/WY6Y_Switch_Diagram.pdf)
+
 ### Detailed Setup
 - **SSH:** Enable via `raspi-config` or add `ssh` file to SD card boot.
 - **GPIO:** Ensure RPi.GPIO installed—`sudo pip3 install RPi.GPIO`.
