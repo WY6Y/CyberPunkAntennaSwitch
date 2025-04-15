@@ -19,6 +19,8 @@ This project is licensed under the Creative Commons Attribution-NonCommercial 4.
 - 5” x 9” PVC board—fits DXE-UE-2P (9.5” x 5.5” x 3.5”).
 - Bias-T (5V) or USB power.
 - Alpha Delta arrestor.
+- Angled Aluminium
+- RG 316 Coax
 
 ## Setup
 1. Install Raspberry Pi OS, enable SSH (port 2222).
