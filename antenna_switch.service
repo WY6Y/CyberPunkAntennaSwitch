@@ -7,8 +7,8 @@ Description=Antenna Switch Web Interface
 After=network.target
 
 [Service]
-ExecStart=/usr/bin/python3 /home/stephenhouser/antenna_switch/web.py
-WorkingDirectory=/home/stephenhouser/antenna_switch
+ExecStart=/usr/bin/python3 /home/user/antenna_switch/web.py
+WorkingDirectory=/home/user/antenna_switch
 StandardOutput=inherit
 StandardError=inherit
 Restart=always
