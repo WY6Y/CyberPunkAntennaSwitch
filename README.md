@@ -22,6 +22,7 @@ This project is licensed under the Creative Commons Attribution-NonCommercial 4.
 - Alpha Delta arrestor.
 - Angled Aluminium
 - RG 316 Coax
+- ![Prototypeboard](hardware.jpg)
 
 ## Setup
 1. Install Raspberry Pi OS, enable SSH (port 2222).
