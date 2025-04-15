@@ -32,3 +32,6 @@ This project is licensed under the Creative Commons Attribution-NonCommercial 4.
 - Relay NC to SPG bus—Alpha Delta backs up.
 - 80W FT8/100W HF—don’t exceed 200W.
 - Customize `app.secret_key`, username, password in `web.py`.
+
+## Demo Video
+Watch the WY6YPi Antenna Switch in action: [YouTube Video](https://youtu.be/Wce_CUvI8qY)
