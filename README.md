@@ -1,4 +1,5 @@
 # WY6Y CyberPunk HF Antenna Switch
+![WY6Y Logo](logo.png)
 
 Raspberry Pi Zero 2 W-based 3-antenna switch for HF (100W), controlled via Flask. Uses ANMBEST 4-channel relay (active HIGH), Freenove Breakout Board HAT, and SO-239s in a DXE-UE-2P box with Alpha Delta arrestor.
 
@@ -29,6 +30,16 @@ This project is licensed under the Creative Commons Attribution-NonCommercial 4.
 4. Copy `antenna_switch.service` to `/etc/systemd/system/`, enable: `sudo systemctl enable antenna_switch.service`.
 5. Wire HAT to relay: 5V, GND, GPIO 23 (IN1), 27 (IN2), 18 (IN3), 17 (IN4).
 6. Test: `./switch_antenna.py 1`, `http://[IP]:5002`.
+
+### Detailed Setup
+- **SSH:** Enable via `raspi-config` or add `ssh` file to SD card boot.
+- **GPIO:** Ensure RPi.GPIO installed—`sudo pip3 install RPi.GPIO`.
+- **Firewall:** Allow port 5002—`sudo ufw allow 5002`.
+
+## Troubleshooting
+- **No Relay Clicks:** Check wiring (5V, GND, GPIO 23, 27, 18, 17). Verify ANMBEST relay is active HIGH.
+- **Flask Fails:** Ensure `python3-flask-session`—`sudo apt install python3-flask-session`.
+- **Port Blocked:** Run `sudo netstat -tuln | grep 5002`—kill conflicts.
 
 ## Notes
 - Relay NC to SPG bus—Alpha Delta backs up.
