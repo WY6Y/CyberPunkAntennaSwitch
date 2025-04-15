@@ -1,4 +1,4 @@
-# WY6YPi HF Antenna Switch
+# WY6YPi CyberPunk HF Antenna Switch
 
 Raspberry Pi Zero 2 W-based 3-antenna switch for HF (80W FT8/100W), controlled via Flask. Uses ANMBEST 4-channel relay (active HIGH), Freenove Breakout Board HAT, and SO-239s in a DXE-UE-2P box with Alpha Delta arrestor.
 
