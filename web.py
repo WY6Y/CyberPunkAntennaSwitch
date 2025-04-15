@@ -171,7 +171,7 @@ def index():
 
 @app.route('/state')
 def get_state():
-    state_file = '/home/stephenhouser/antenna_switch/state.txt'
+    state_file = '/home/user/antenna_switch/state.txt'
     try:
         with open(state_file, 'r') as f:
             state = f.read().strip()
@@ -187,7 +187,7 @@ def get_state():
 def switch():
     antenna = request.form.get('antenna')
     print(f"Switching to {antenna}")
-    state_file = '/home/stephenhouser/antenna_switch/state.txt'
+    state_file = '/home/user/antenna_switch/state.txt'
     try:
         result = subprocess.run(['sudo', './switch_antenna.py', antenna], check=True, capture_output=True, text=True)
         print(f"Output: {result.stdout}")
