@@ -1,7 +1,7 @@
 # WY6YPi Antenna Switch
 # Copyright (c) 2025 Stephen Houser
 # Licensed under CC BY-NC 4.0 (https://creativecommons.org/licenses/by-nc/4.0/)
-stephenhouser@WY6YPi:~/antenna_switch $ sudo cat /etc/systemd/system/antenna_switch.service
+user@local:~/antenna_switch $ sudo cat /etc/systemd/system/antenna_switch.service
 [Unit]
 Description=Antenna Switch Web Interface
 After=network.target
