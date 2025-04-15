@@ -30,7 +30,7 @@ This project is licensed under the Creative Commons Attribution-NonCommercial 4.
 
 ## Notes
 - Relay NC to SPG bus—Alpha Delta backs up.
-- 80W FT8/100W HF—don’t exceed 200W.
+- 100W HF—don’t exceed 200W.
 - Customize `app.secret_key`, username, password in `web.py`.
 
 ## Demo Video
